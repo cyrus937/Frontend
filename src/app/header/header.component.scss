@@ -1,0 +1,35 @@
+li {
+  display: inline;
+  float: right;
+}
+
+li a:hover{
+  background-color: black;
+}
+
+.navigation{
+  background-color: orange;
+  padding: 200 px;
+  top:0%;
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a{
+  color: white;
+  font-size: 120%;
+  padding: 10px;
+  margin: 15px;
+  margin-left: 50px;
+  text-decoration: none;
+  font-weight:bolder;
+  text-decoration: none;
+  float: right;
+
+}
+
+

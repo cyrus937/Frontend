@@ -1,0 +1,63 @@
+.box{
+  text-align:center;
+  background-color:#f49c4c;
+  border-radius: 2em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width:50%;
+  height:60%;
+  opacity: 0.75;
+}
+
+div:last-child > span ~ span {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: #1692c7;
+}
+
+#fondecran{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+}
+
+.message{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+div > p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+.container{
+  background-image: url("../../assets/message1.jpg");
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  position: fixed;
+}
+
+@media (min-width: 768px) and (max-width: 991px ){
+  .box{
+      height:70%;
+  }
+
+}
+
+@media and (max-width: 767px){
+  .box{
+    height: 40%
+  }
+  .message{
+    font-size: 15px
+  }
+}

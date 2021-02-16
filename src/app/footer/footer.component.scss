@@ -1,0 +1,21 @@
+footer{
+  background-color:black;
+  height:25% ;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: blanchedalmond;
+  flex-direction:row;
+  left: 0;
+
+}
+
+.pied-gauche{
+  float: left;
+  margin-left: 30px;
+}
+
+.pied-droit{
+  float: right;
+  margin-right: 30px;
+}

@@ -1,0 +1,133 @@
+/*tous les éléments*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/*l'espace libre*/
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background-image: url("../../assets/im.jpg");
+  background-size: 100% 100%;
+ /* background: linear-gradient(-135deg,#ecd4a4, #ff9800 );*/
+}
+/*contient toute la petite fenetre de connexion*/
+.wrapper{
+  width: 380px;
+
+  width:30%;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+/*La partie Connexion du formulaire*/
+.wrapper .title{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  user-select: none;
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(-135deg,#ecd4a4, #ff9800 );
+
+  background-color: #f5d020;
+background-image: linear-gradient(315deg, #f5d020 0%, #f16139 74%);
+}
+
+/*tout ce qui est contenu dans le bas du form*/
+.wrapper form{
+  padding: 10px 30px 50px 30px;
+/*top right bottom left*/
+  padding: 5% 10%px 5% 10%;
+  align-items: center;
+
+}
+/*les 2 champs entry*/
+.wrapper form .field{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.wrapper form .field input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.wrapper form .field input:focus,
+form .field input:valid{
+  border-color: #d08641;
+}
+/*les labels*/
+
+form .content{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+form .content label{
+  color: #262626;
+  user-select: none;
+  padding-left: 5px;
+}
+
+/*le bouton*/
+form .field input[type="submit"]{
+  color: #fff;
+  border: none;
+  padding-left: 0;
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background: linear-gradient(-135deg,#ecd4a4, #ff9800 );
+  transition: all 0.3s ease;
+
+  background-color: #f5d020;
+background-image: linear-gradient(315deg, #f5d020 0%, #f16139 74%);
+}
+form .field input[type="submit"]:active{
+  transform: scale(0.95);
+}
+form .lienInscription{
+  color: #262626;
+  margin-top: 5px;
+  text-align: center;
+}
+/*Les 2 liens du bas*/
+form .pass-link a,
+form .lienInscription a{
+  color: #000000;
+  text-decoration: none;
+}
+
+/*quand on survole le lien mot de passe oublié*/
+form .pass-link a:hover,
+form .lienInscription a:hover{
+  text-decoration: underline;
+}
+
+#basDuBouton{
+
+  margin-bottom: 0px;
+}
+
+#divDuLogin{
+  margin-top: 50px;
+}
+
